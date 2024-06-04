@@ -18,25 +18,27 @@
         Pratica con il Grid System
       </h1>
     </header>
-    <main>
+    <main class="container-lg">
       <!-- ESERCIZIO 1 -->
       <h2 class="text-center">Esercizio 1</h2>
       <div class="row">
-        <div class="col-4">
-          <div class="fs-2 bg-primary text-white p-3">1</div>
+        <div class="col-4 fs-2 bg-primary text-white border border-black">
+          1
         </div>
-        <div class="col-4">
-          <div class="fs-2 bg-primary text-white p-3">2</div>
+        <div class="col-4 fs-2 bg-primary text-white border border-black">
+          2
         </div>
-        <div class="col-4">
-          <div class="fs-2 bg-primary text-white p-3">3</div>
+        <div class="col-4 fs-2 bg-primary text-white border border-black">
+          3
         </div>
       </div>
       <!-- ESERCIZIO 2 -->
       <h2 class="text-center">Esercizio 2</h2>
-      <div class="row m-1">
+      <div class="row">
         <div class="col-12 col-md-4">
+          <!-- !creare div interno a col aggiunge in auto padding inline 12px -->
           <div class="bg-warning p-3 text-dark border border-black">primo</div>
+          <!-- questo div add padding 12px in auto -->
         </div>
         <div class="col-12 col-md-4">
           <div class="bg-warning p-3 text-dark border border-black">
@@ -50,7 +52,7 @@
       <!-- ESERCIZIO 3 -->
       <h2 class="text-center">Esercizio 3</h2>
       <!-- MOBILE -->
-      <div class="row m-1">
+      <div class="row">
         <div class="col-4">
           <div class="bg-success text-white p-3 border border-black">
             MOBILE
@@ -68,7 +70,7 @@
         </div>
       </div>
       <!-- MEDIUM -->
-      <div class="row m-1">
+      <div class="row">
         <div class="col-12 col-md-4">
           <div class="bg-success text-white p-3 border border-black">
             MEDIUM
@@ -86,7 +88,7 @@
         </div>
       </div>
       <!-- LARGE -->
-      <div class="row m-1">
+      <div class="row">
         <div class="col-12 col-lg-4">
           <div class="bg-success text-white p-3 border border-black">LARGE</div>
         </div>
@@ -98,7 +100,7 @@
         </div>
       </div>
       <!-- X-LARGE -->
-      <div class="row m-1">
+      <div class="row">
         <div class="col-12 col-xl-4">
           <div class="bg-success text-white p-3 border border-black">
             X-LARGE
@@ -116,7 +118,7 @@
         </div>
       </div>
       <!-- XX-LARGE -->
-      <div class="row m-1">
+      <div class="row">
         <div class="col-12 col-xxl-4">
           <div class="bg-success text-white p-3 border border-black">
             XX-LARGE
@@ -156,7 +158,7 @@
       <h2 class="text-center">Esercizio 5</h2>
       <div class="row">
         <div class="col-6 col-lg-8">
-          <div class="bg-info p-3 m-1">
+          <div class="bg-info p-3">
             <div class="row">
               <div class="col-12 col-md-12 col-lg-6">
                 <div class="bg-secondary p-3 border border-black text-white">
@@ -171,7 +173,13 @@
             </div>
           </div>
         </div>
-        <div class="col-6 col-lg-4"><div class="bg-info p-3 m-1"></div></div>
+        <div class="col-6 col-lg-4"><div class="bg-info p-3"></div></div>
+      </div>
+      <!-- ESERCIZIO 5 -->
+      <h2 class="text-center">Esercizio 5</h2>
+      <div class="row">
+        crea 2 colonne per desktop. La seconda deve spostarsi di 2 posizioni.
+        Background scuro, testo bianco con padding 3
       </div>
     </main>
     <script
